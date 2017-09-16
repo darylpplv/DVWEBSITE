@@ -6,7 +6,7 @@ version: 1.0.5
 ;(function($){
 	window.FJSCore={
 		local:location.protocol=="file:"	
-		,basepath:location.pathname.slice(0,location.pathname.lastIndexOf('../index.html')+1)	
+		,basepath:location.pathname.slice(0,location.pathname.lastIndexOf('index.html')+1)	
 		,defState:''
 		,defMobileState:''
 		,defStateMobileText:'Main Page'
@@ -18,7 +18,7 @@ version: 1.0.5
 		,mobileFolowLinks:false	
 	}
 
-	include('../../static.livedemo00.template-help.com/wt_50778/js/history7ec8.js?redirect=true&amp;basepath='+FJSCore.basepath)
+	include('js/history7ec8.js?redirect=true&amp;basepath='+FJSCore.basepath)
 
 	if(FJSCore.mobileVersion&&(FJSCore.mobile=(device.mobile())||location.search.slice(1)==='mobile'))
 		document.write('<meta name="viewport" content="width=device-width, initial-scale=1.0"/>')
@@ -315,7 +315,7 @@ version: 1.0.5
 		$('[data-source]')
 			.each(function(){
 				var $this=$(this)
-					,url=location.href.slice(0,location.href.lastIndexOf('../index.html'))+'/ajax/'+$this.data('source')
+					,url=location.href.slice(0,location.href.lastIndexOf('index.html'))+'/ajax/'+$this.data('source')
 				
 				$this
 					.on('show',function(e,d){						
@@ -667,7 +667,7 @@ if(!FJSCore.mobile)
         }
 
         function changeHeight(e) {        	
-	        var currHistoryState = history.state ? history.state : location.href.slice(location.href.lastIndexOf('../index.html')+1,location.href.length);	// current history state;
+	        var currHistoryState = history.state ? history.state : location.href.slice(location.href.lastIndexOf('index.html')+1,location.href.length);	// current history state;
 	        affectHeight = calculateAffectHeight();
         	if (options.type == 'inner') {
         	// min-height apply for every page

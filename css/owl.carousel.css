@@ -67,7 +67,7 @@
 #owl .owl-prev, #owl .owl-next {
 	cursor: pointer;
 	position: absolute;
-	//background: url(../img/prevnext.png) 0 0 no-repeat;
+	//background: url(img/prevnext.png) 0 0 no-repeat;
 	display: block;
 	height: 31px;
 	right: 0px;

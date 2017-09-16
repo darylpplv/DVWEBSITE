@@ -5,7 +5,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400);
 @import 'tmMultimediaGallery.css';
-@import '../fonts/font-awesome.css';
+@import 'fonts/font-awesome.css';
 @import 'owl.carousel.css';
 /*iOs_link_fix*/
 a[href^="tel:"] {
@@ -275,7 +275,7 @@ h5 span {
   width: 18px;
   height: 14px;
   display: inline-block;
-  background: url(../img/pic_icone.png) no-repeat;
+  background: "img/pic_icone.png" no-repeat;
 }
 .box:hover {
   text-decoration: underline;
@@ -363,7 +363,7 @@ h5 span {
   height: 1025px;
   overflow: hidden;
   z-index: 1;
-  background: url(../img/p4_pic1.jpg) center;
+  background: "img/p4_pic1.jpg" center;
   background-size: cover;
   text-align: center;
 }
@@ -375,7 +375,7 @@ h5 span {
   display: inline-block;
 }
 .a2 span {
-  background: url(../img/p4_pic2.jpg) center;
+  background: url(img/gallery_prev2.jpg) center;
   display: block;
   position: relative;
   top: 0;
@@ -432,7 +432,7 @@ h5 span {
   border: none;
   text-indent: -999px;
   z-index: 200;
-  background: url(../img/totop.png) no-repeat 0 0;
+  background: url(img/totop.png) no-repeat 0 0;
   transition: 0s ease;
   -o-transition: 0s ease;
   -webkit-transition: 0s ease;
@@ -617,7 +617,7 @@ h5 span {
   padding: 0px;
   margin: 0px;
   z-index: 500;
-  background: url(../img/Discription_bg.png) repeat;
+  background: url(img/Discription_bg.png) repeat;
   text-align: center;
 }
 .galleryDiscription li {
@@ -1021,7 +1021,7 @@ footer {
   width: 100%;
   height: 1001px;
   z-index: 1;
-  background: url(../img/p5_bg.jpg) center;
+  background: url(img/p5_bg.jpg) center;
   background-size: cover;
 }
 .color_1 {
@@ -1066,7 +1066,7 @@ footer {
   display: none;
   top: 0px;
   left: 0;
-  background: url(../img/base/TMpreviewLoader.gif) 0 0 repeat-x rgba(0, 0, 0, 0.5);
+  background: url(img/base/TMpreviewLoader.gif) 0 0 repeat-x rgba(0, 0, 0, 0.5);
   z-index: 9999;
 }
 /* rewrite bootstrap classes */
@@ -1106,7 +1106,7 @@ footer {
   display: block;
   width: 100%;
   height: 100%;
-  background: url(../img/close_icon.png) left center no-repeat;
+  background: url(img/close_icon.png) left center no-repeat;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
@@ -1117,7 +1117,7 @@ footer {
   text-decoration: none;
 }
 .closeIcon:hover:after {
-  background: url(../img/close_icon.png) right center no-repeat;
+  background: url(img/close_icon.png) right center no-repeat;
 }
 .link_1 {
   position: relative;
@@ -1268,7 +1268,7 @@ em {
   height: 643px;
 }
 .camera_wrap .caption {
-  background: url(../img/caption_bg.png) repeat;
+  background: url(img/caption_bg.png) repeat;
   height: 130px;
   width: 100%;
   display: block;
@@ -1352,8 +1352,8 @@ em {
   text-decoration: none;
 }
 .camera_loader {
-  background: #ffffff url('../img/camera-loader.gif') no-repeat center;
-  background: rgba(255, 255, 255, 0.9) url('../img/camera-loader.gif') no-repeat center;
+  background: #ffffff url('img/camera-loader.gif') no-repeat center;
+  background: rgba(255, 255, 255, 0.9) url('img/camera-loader.gif') no-repeat center;
   border: 1px solid #ffffff;
   border-radius: 18px;
   height: 36px;
@@ -1459,12 +1459,12 @@ em {
   width: 19px;
   height: 27px;
   float: right;
-  background: url('../img/arr_next.png') right 0 no-repeat;
+  background: url('img/arr_next.png') right 0 no-repeat;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
 .navigCamera .next_b:hover {
-  background: url('../img/arr_next.png') left 0 no-repeat;
+  background: url('img/arr_next.png') left 0 no-repeat;
 }
 .navigCamera .prev_b {
   position: relative;
@@ -1472,12 +1472,12 @@ em {
   width: 19px;
   height: 27px;
   float: left;
-  background: url('../img/arr_prev.png') 0 0 no-repeat;
+  background: url('img/arr_prev.png') 0 0 no-repeat;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
 .navigCamera .prev_b:hover {
-  background: url('../img/arr_prev.png') right 0 no-repeat;
+  background: url('img/arr_prev.png') right 0 no-repeat;
 }
 /*-----------  PAGE 2  --------------------------------------------------*/
 .line_hor {
@@ -1485,7 +1485,7 @@ em {
   display: block;
   width: 100%;
   height: 10px;
-  background: url('../img/line_hor.html') 0 0 repeat-x;
+  background: url('img/line_hor.html') 0 0 repeat-x;
   margin-bottom: 39px;
 }
 #page2_item1 {
@@ -1552,7 +1552,7 @@ em {
   width: 89px;
   height: 89px;
   margin: 0;
-  background: url('../img/icon_zoom.png') 0 no-repeat;
+  background: url('img/icon_zoom.png') 0 no-repeat;
   -webkit-transition: all 0.3s 0.2s ease-out;
   transition: all 0.3s 0.2s ease-out;
   position: relative;
@@ -1648,7 +1648,7 @@ em {
   width: 100%;
   height: 100%;
   border: none;
-  background: url(../img/base/site_loader.gif) center no-repeat #3c2e36 !important;
+  background: url(img/base/site_loader.gif) center no-repeat #3c2e36 !important;
 }
 .width_1 {
   position: relative;

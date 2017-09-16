@@ -1,21 +1,21 @@
 function include(url){document.write('<script type="text/javascript" src="'+url+'"></script>')}
 
 //------ base included scripts -------//
-include('../../static.livedemo00.template-help.com/wt_50778/js/jquery.easing.js');
-include('../../static.livedemo00.template-help.com/wt_50778/js/jquery.mousewheel.min.js');
-include('../../static.livedemo00.template-help.com/wt_50778/js/jquery-ui-1.10.3.custom.min.js');
-include('../../static.livedemo00.template-help.com/wt_50778/js/jquery.ui.touch-punch.js');
-include('../../static.livedemo00.template-help.com/wt_50778/js/jquery.touchSwipe.min.js');
-include("../../static.livedemo00.template-help.com/wt_50778/js/jquery-migrate-1.1.1.js");
-include('../../static.livedemo00.template-help.com/wt_50778/js/klass.min.js');
+include('js/jquery.easing.js');
+include('js/jquery.mousewheel.min.js');
+include('js/jquery-ui-1.10.3.custom.min.js');
+include('js/jquery.ui.touch-punch.js');
+include('js/jquery.touchSwipe.min.js');
+include("js/jquery-migrate-1.1.1.js");
+include('js/klass.min.js');
 
-include("../../static.livedemo00.template-help.com/wt_50778/js/owl.carousel.js");
- include('../../static.livedemo00.template-help.com/wt_50778/js/spin.min.js'); 
-include('../../static.livedemo00.template-help.com/wt_50778/js/tmMultimediaGallery.js');
+include("js/owl.carousel.js");
+ include('js/spin.min.js'); 
+include('js/tmMultimediaGallery.js');
    
 // include('js/camera.js');
 
-include('../../static.livedemo00.template-help.com/wt_50778/js/jquery.equalheights.js');
+include('js/jquery.equalheights.js');
 
 //include('js/sForm.js');
  /*
@@ -27,15 +27,15 @@ include('../../static.livedemo00.template-help.com/wt_50778/js/jquery.equalheigh
 //include('js/jquery.equalheights.js');
 
 if(!FJSCore.mobile && !FJSCore.tablet){
-    include('../../static.livedemo00.template-help.com/wt_50778/js/jquery.superscrollorama.js');
+    include('js/jquery.superscrollorama.js');
 }
 
 if(!FJSCore.mobile){
    
-    include('../../static.livedemo00.template-help.com/wt_50778/js/hoverIntent.js');
-    include('../../static.livedemo00.template-help.com/wt_50778/js/superfish.js');
-    include('../../static.livedemo00.template-help.com/wt_50778/js/greensock/TweenMax.min.js');   
-    include("../../static.livedemo00.template-help.com/wt_50778/js/jquery.ui.totop.js");
+    include('js/hoverIntent.js');
+    include('js/superfish.js');
+    include('js/greensock/TweenMax.min.js');   
+    include("js/jquery.ui.totop.js");
      //include('js/TMgalleryPrototype.js');
 } else{
 

@@ -125,13 +125,13 @@ body.galleryOpen {
 
 }.prevButton {
   left: 50px;
-  background: url(../img/arr_prev.png) left center no-repeat;
+  background: url(img/arr_prev.png) left center no-repeat;
 }
 .prevButton > span {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(../img/arr_prev.png) right center no-repeat;
+  background: url(img/arr_prev.png) right center no-repeat;
   opacity: 0;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -147,13 +147,13 @@ body.galleryOpen {
 }
 .nextButton {
   right: 50px;
-  background: url(../img/arr_next.png) right center no-repeat;
+  background: url(img/arr_next.png) right center no-repeat;
 }
 .nextButton > span {
    position: absolute;
   top: 0;
   left: 0;
-  background: url(../img/arr_next.png) left center no-repeat;
+  background: url(img/arr_next.png) left center no-repeat;
   opacity: 0;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
